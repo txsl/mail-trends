@@ -6,8 +6,8 @@ import cache
 import messageinfo
 import stringscanner
 
-MAILBOX_GMAIL_ALL_MAIL = "[Gmail]/All Mail"
-MAILBOX_GMAIL_PREFIX = "[Gmail]"
+MAILBOX_GMAIL_ALL_MAIL = "Inbox"
+MAILBOX_GMAIL_PREFIX = ""
 
 class Mail(object):
   def __init__(self, server, use_ssl, username, password, 
